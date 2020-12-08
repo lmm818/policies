@@ -1,0 +1,256 @@
+body {
+  font-family: 'Arimo', sans-serif;
+  background-color: #fcecd8;
+  /* background-image: url(plantsSquare.png);
+  background-repeat: repeat-y; */
+  color: #0d4624;
+  margin: 0px;
+  padding: 0px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.navBar {
+  background-color: #faf7f3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+  padding: 5vh 3.5vh 5vh 3.5vh;
+}
+
+.navBar a:link {
+  color: #0d4624;
+  text-decoration: none;
+}
+
+.navBar a:visited {
+  color: #0d4624;
+}
+
+.navBar a:hover {
+  color: #e6c44e;
+}
+
+.titlehome {
+  font-weight: 600;
+  padding-right: 30%;
+}
+
+.footerimage {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+
+.footerimage > img {
+  width: 25%;
+}
+
+.siteexplained {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.know {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  color: #6ca38d;
+  padding-bottom: 5vh;
+}
+
+.sources a:link {
+  color: #5b7c57;
+  text-decoration: none;
+}
+
+.sources a:visited {
+  color: #5b7c57;
+}
+
+.sources a:hover {
+  color: #6ca38d;
+}
+
+.sources {
+  font-size: 1.5rem;
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
+
+.sourcestogether {
+  display: flex;
+  justify-content: center;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+/* index page */
+
+.explanation {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5vh;
+  font-weight: 500;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  color: #d8943c;
+}
+
+.explanationextra {
+  margin-top: 4.5vh;
+}
+
+.title {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+
+.disclaimers {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #f09895;
+  padding: 5vh 25vh 5vh 25vh;
+  line-height: 2.5rem;
+}
+
+/* twitter page */
+.sectionheader {
+  font-size: 1.5rem;
+  padding-left: 25vh;
+  padding-bottom: 5vh;
+  color: #5b7c57;
+}
+
+.circleInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #ffcccc;
+  color: #ca8832;
+  font-size: 1.25rem;
+}
+
+/* the code for making the circles comes from the link below:
+https://stackoverflow.com/questions/16615403/how-to-draw-a-circle-with-text-in-the-middle
+circles info is to draw the circles and circles below is just for placement.
+thee things i could not figure out was how to make the text able to be dynamic and was messing around with line height.
+this text-align really helped with my code. the border-radius as well. having it at 50% applies the value to all corners.
+50% is just the shape of the corners and since the height and width is the same, it turns into a circle.
+*/
+
+.circles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 25vh;
+  padding-right: 25vh;
+}
+
+.circleInfoTwt {
+  background-color: #6e9669;
+  color: #fcf8ef;
+}
+
+.circleInfoIg {
+  background-color: #d8943c;
+  color: #fee489;
+}
+
+.circleInfo:hover {
+  transform: scale(1.5);
+}
+
+.sitecontent {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 10vh 5vh 0vh 5vh;
+  color: #5b7c57;
+}
+
+.contentlayout {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: row;
+  font-size: 1.5rem;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  color: #5b7c57;
+}
+
+.whatsays {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  line-height: 2.5rem;
+}
+
+.whatmeans {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  line-height: 2.5rem;
+}
+
+.privacypolicy {
+  background-color: #dd9941;
+  color: #fcf8ef;
+}
+
+.policytik {
+  background-color: #6e9669;
+  color: #fcf8ef;
+}
+
+.policyig {
+  background-color: #ffcccc;
+  color: #ca8832;
+}
+
+.policytitle {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 5vh 10vh 5vh 10vh;
+}
+
+.sectionheaderPW {
+  font-size: 1.5rem;
+  padding-left: 25vh;
+  padding-bottom: 5vh;
+  color: #fcf8ef;
+}
+
+.gentext {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding: 0vh 30vh 5vh 30vh;
+}
